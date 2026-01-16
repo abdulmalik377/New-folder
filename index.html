@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع بسيط</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحباً بك في موقعي</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>الصفحة الرئيسية</h2>
+            <p>أهلاً وسهلاً بك في موقعنا البسيط. هذا موقع تجريبي لعرض كيفية إنشاء صفحة ويب أساسية.</p>
+        </section>
+
+        <section id="about">
+            <h2>من نحن</h2>
+            <p>نحن فريق متخصص في تطوير المواقع الإلكترونية. نسعى دائماً لتقديم أفضل الحلول التقنية لعملائنا.</p>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2023</p>
+    </footer>
+</body>
+</html>
